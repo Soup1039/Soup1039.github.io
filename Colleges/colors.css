@@ -1,0 +1,119 @@
+hr {
+  width:50%;
+  margin: 15px 25%;
+  border-color: #595e6e;
+}
+.collegeHead {
+  text-align: center;
+  text-decoration: bold, underline;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin: 15px 0px;
+}
+#folioHead {
+  font-size: 45px;
+  font-family: Garamond;
+  padding-top: 2.5%;
+}
+
+.butt a{
+  color:white!important;
+}
+.folioDesc {
+  margin-left: 15%; 
+  margin-right: 15%;
+  font-size: 30px;
+  text-indent: 40px;
+}
+
+.colorCollect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: navy;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+.colorCollect img {
+  margin: 25px 10px;
+}
+
+#dropMenu a:hover {
+  background-color: #D3D3D3;
+}
+
+/* All of the folio page stuff */
+@media only screen and (max-width: 1000px) {
+  .top-section-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: none;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 25px;
+    margin: auto;
+  }
+  .folioImg{
+    width: 200px;
+    height: auto;
+  }
+  .pdf{
+    width: 75%;
+    height: 460px;
+    align-self: center;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .top-section-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: none;
+  }
+  
+  .left-section-flex {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: none;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-right: 5%;
+    margin: none;
+  }
+  
+  .folioImg{
+    width: 200px;
+    align-self: center;
+    height: auto;
+  }
+
+  .pdf {
+    width: 800px;
+    height: 600px;
+    align-self: normal;
+    padding-top: 30px;
+  }
+}
+
+/* General stuff */
+paras {
+  font-size: 25px;
+  font-family: Garamond;
+  margin-left: 10%;
+  margin-top: none;
+}
