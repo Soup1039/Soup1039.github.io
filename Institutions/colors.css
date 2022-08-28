@@ -60,10 +60,6 @@ hr {
     padding-top: 25px;
     margin: auto;
   }
-  .folioImg{
-    width: 200px;
-    height: auto;
-  }
   .pdf{
     width: 75%;
     height: 460px;
@@ -117,3 +113,8 @@ paras {
   margin-left: 10%;
   margin-top: none;
 }
+
+.folioImg{
+    width: 200px;
+    height: auto;
+  }
