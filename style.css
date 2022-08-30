@@ -126,7 +126,7 @@ p {
 }
 /* Tester Animations */
 .collegeImg {
-  height: 200px;
+  height: 100px;
   width: auto;
   transition: 1s;
 }
