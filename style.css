@@ -110,17 +110,20 @@ h2 {
   width: 100%;
 }
 
+h3 {
+  margin: 20px 10%;
+  font-size: 20px;
+  font-family: Garamond;
+  text-indent: 0px;
+}
+
 p {
   margin: 20px 10%;
   font-size: 25px;
   font-family: Garamond;
   text-indent: 40px;
 }
-pbasic {
-  margin: 20px 10%;
-  font-size: 20px;
-  font-family: Garamond;
-}
+
 .colorPalletes{
   display: flex;
   flex-direction: row;
