@@ -131,7 +131,7 @@ p {
   transition: 1s;
 }
 
-.lehighImg {
+#lehighImg {
   height: 60px;
   width: auto;
   padding-top: 25px;
