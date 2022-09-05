@@ -91,7 +91,10 @@ html, body {
   font-size: 60px;
   display: block;
   background-color: #cabaaa;
+	text-decoration: none;
+	color: inherit; 
 }
+
 .header{
   text-align: center;
   text-decoration: bold, underline;
