@@ -95,7 +95,7 @@ html, body {
 
 #mainHead a {
   color: white;
-  text-decoration: bold;
+  text-decoration: none;
   font-family: Garamond;
   font-size: 60px;
 }
