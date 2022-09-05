@@ -93,6 +93,13 @@ html, body {
   background-color: #cabaaa;
 }
 
+#mainHead a {
+  color: white;
+  text-decoration: bold;
+  font-family: Garamond;
+  font-size: 60px;
+}
+
 .header{
   text-align: center;
   text-decoration: bold, underline;
